@@ -517,13 +517,13 @@ button {
 
 /* Add this to your CSS */
 .overflow_area {
-  height: 350px;
+  max-height: 350px;
   overflow: hidden;
 }
 
 .chat-container {
   overflow: auto;
-  height: 350px;
+  max-height: 350px;
 }
 
 .chat-container .bot-message,
