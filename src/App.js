@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Configuration from "./pages/Configuration";
 import CSharebot from "./pages/CSharebot";
 import DesignLayout from "./pages/DesignLayout";
+import Blog from "./pages/Blog";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="configuration" element={<Configuration />} />
       <Route path="csharebot" element={<CSharebot />} />
       <Route path="design_layout" element={<DesignLayout />} />
+      <Route path="blog" element={<Blog />} />
       </Routes>
     </Router>
   );

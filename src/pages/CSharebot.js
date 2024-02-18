@@ -22,7 +22,7 @@ function CSharebot() {
           <hr className="my-5" />
 
           <form>
-            <FileUploader/>
+            <FileUploader />
             <TextArea
               label="Description"
               placeholder="Journalist Role sample"
